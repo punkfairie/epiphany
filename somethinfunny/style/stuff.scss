@@ -1,0 +1,128 @@
+@import "vars";
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+   font-family: $font;
+   font-size: $fsize;
+   letter-spacing: $lspacing;
+   padding: 30px;
+   color: $text;
+}
+
+.center {
+	text-align: center;
+}
+
+// Text
+
+h1 {
+	font-size: $fsize + 2;
+	color: $accent2;
+	text-transform: uppercase;
+	font-weight: normal;
+
+	&::before {
+		content: url(../images/cat.png);
+		padding-right: 5px;
+	}
+
+	&::after {
+		content: url(../images/cat.png);
+		padding-left: 5px;
+	}
+}
+
+h2 {
+	font-size: $fsize + 1;
+	color: $accent2;
+	font-weight: normal;
+
+	&::before {
+		content: url(../images/paw.gif);
+		padding-right: 5px;
+	}
+
+	&::after {
+		content: url(../images/paw.gif);
+		padding-left: 5px;
+	}
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	color: $accent1;
+	font-weight: normal;
+	font-style: italic;
+}
+
+a {
+	color: $accent1;
+
+	&:hover {
+		text-decoration: underline wavy;
+	}
+}
+
+em {
+	color: $accent1;
+}
+
+strong {
+	font-weight: normal;
+	color: $accent2;
+}
+
+// Petz imgs / awards
+
+div.petz, div.awards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+div.awards { margin-top: 5px; }
+
+div.awards a { text-decoration: none; }
+div.awards a:hover { text-decoration: none; }
+
+a.pet { text-decoration: none; }
+a.pet:hover { text-decoration: none; }
+
+// Pet Pages
+
+table.pet-facts {
+	border: 0;
+	margin: 0 auto;
+	padding: 10px 0;
+
+	td:first-child {
+		color: $accent1;
+		font-style: italic;
+		text-align: right;
+		padding-right: 10px;
+	}
+
+	td:last-child {
+		text-align: left;
+	}
+}
+
+// Misc
+
+.divide {
+	content: url(../images/divide.png);
+	margin: 0 auto;
+	padding: 20px;
+}
+
+img.padding {
+	margin: 10px;
+}

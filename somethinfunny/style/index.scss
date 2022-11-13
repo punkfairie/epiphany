@@ -1,0 +1,64 @@
+@import "vars";
+
+html {
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   background: $bg;
+   font-family: $font;
+   font-size: $fsize;
+   letter-spacing: $lspacing;
+   height: 95%;
+}
+
+#container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   gap: 30px 10px;
+   flex-wrap: wrap;
+   width: 100%;
+   height: 85%;
+}
+
+#banner {
+   text-align: left;
+   position: absolute;
+   top: -57px;
+   left: -30px;
+
+   img {
+      width: 570px;
+   }
+}
+
+#main {
+   text-align: center;
+   position: relative;
+}
+
+#nav {
+   text-align: right;
+   position: absolute;
+   bottom: -45px;
+   right: -15px;
+   display: flex;
+   align-content: center;
+
+   a {
+      text-decoration: none;
+   }
+
+   img {
+      margin: 0 -10px;
+   }
+}
+
+iframe {
+   width: 600px;
+   height: 500px;
+   background: rgba(255,255,255,0.70);
+}

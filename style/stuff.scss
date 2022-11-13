@@ -1,0 +1,178 @@
+@use 'vars' as *;
+
+/* GLOBAL --------------------------------------------------------------------------------------- */
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: $font;
+	font-size: $fsize;
+	letter-spacing: $lspacing;
+	padding: 10px;
+	color: $text;
+}
+
+.nav {
+	text-align: center;
+	padding: 5px;
+}
+
+#main-content {
+	margin-left: 45px;
+	margin-right: 25px;
+	margin-top: 30px;
+}
+
+/* CBOX ----------------------------------------------------------------------------------------- */
+
+body#cbox {
+	padding: 0;
+	text-align: center;
+}
+
+/* TABLES --------------------------------------------------------------------------------------- */
+
+td {
+	padding: 5px;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* TEXT ----------------------------------------------------------------------------------------- */
+
+.text {
+	text-align: center;
+	padding: 0;
+
+	p {
+		padding: 5px 0;
+	}
+}
+
+h1 {
+	font-size: $fsize + 1;
+	color: $bold;
+	text-transform: uppercase;
+	font-weight: normal;
+
+	&::before {
+		content: url(../images/doggy.gif);
+		padding-right: 5px;
+	}
+
+	&::after {
+		content: url(../images/doggy.gif);
+		padding-left: 5px;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: $accent1;
+
+	&:hover {
+	   text-decoration: underline;
+		color: $accent2; 
+	}
+}
+
+strong, em {
+	color: $bold;
+}
+
+.left {
+	text-align: left;
+}
+
+h2 {
+	color: $bold;
+	font-size: inherit;
+	font-weight: normal;
+	margin-bottom: -10px;
+
+	&::before {
+		content: url(../images/star.webp);
+		padding-right: 5px;
+	}
+
+	&::after {
+		content: url(../images/star.webp);
+		padding-left: 5px;
+	}
+}
+
+.girls {
+	color: $girls;
+}
+
+.boys {
+	color: $boys;
+}
+
+.pol {
+	font-style: italic;
+}
+
+.gone {
+	text-decoration: line-through;
+}
+
+ul.list {
+	list-style-image: url(../images/heart.gif);
+}
+
+/* CLIQUES & FANLISTINGS ------------------------------------------------------------------------ */
+
+div.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+a.social {
+	text-decoration: none;
+}
+
+a.social:hover {
+	text-decoration: none;
+}
+
+/* ADOPTIONS ------------------------------------------------------------------------------------ */
+
+img.adopt { width: 100px; }
+
+/* MISC ----------------------------------------------------------------------------------------- */
+
+img.pet {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.divide {
+	margin: 0 auto;
+	padding: 10px;
+	width: 1px;
+
+	&::before {
+		content: url(../images/paw-divider.png);
+		margin-left: -60px;
+	}
+}
+
+
+
+.egg {
+	display: block;
+	text-align: right !important;
+	width: 100% !important;
+}

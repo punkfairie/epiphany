@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+$bg: url(../images/bg.gif);
+
+$font: 'Imprima', sans-serif;
+$fsize: 12px;
+$lspacing: 1.8px;
+
+$text: #000;
+$accent1: #c270b2; // lighter
+$accent2: #b34c9f; // darker
+
+// Cursor
+
+html, body, a, a:hover {
+   cursor: url(../images/cursor.png), default;
+}

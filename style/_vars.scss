@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+$bg: url(../images/bg.png);
+
+// Typography
+
+$font: 'Imprima', sans-serif;
+$fsize: 12px;
+$lspacing: 1.8px;
+
+// Colors
+
+$text: #000;
+$accent1: #ff46c1; // Lighter
+$accent2: #ff0fae; // Darker
+$bold: #b571f5;
+
+$girls: #FF8BFF;
+$boys: #70BEF0;
+
+// Cursor
+
+html, body, a, a:hover {
+   cursor: url(../images/cursor.png);
+}
