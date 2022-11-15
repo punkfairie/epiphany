@@ -7,7 +7,7 @@
 
 <body class="main-content">
 
-this is where the dog adoptions will go
+this is where the cat adoptions will go
 
 </body>
 </html>

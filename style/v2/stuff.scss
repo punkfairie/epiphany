@@ -20,17 +20,12 @@ body {
 }
 
 #main-content {
-	margin: 10px;
-    padding: 10px;
+	margin-left: 45px;
+	margin-right: 25px;
+	margin-top: 30px;
 }
 
 /* CBOX ----------------------------------------------------------------------------------------- */
-
-#cbox-inner {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
- }
 
 body#cbox {
 	padding: 0;
@@ -67,12 +62,12 @@ h1 {
 	font-weight: normal;
 
 	&::before {
-		content: url(../images/snowflake.webp);
+		content: url(../images/doggy.gif);
 		padding-right: 5px;
 	}
 
 	&::after {
-		content: url(../images/snowflake.webp);
+		content: url(../images/doggy.gif);
 		padding-left: 5px;
 	}
 }
@@ -102,12 +97,12 @@ h2 {
 	margin-bottom: -10px;
 
 	&::before {
-		content: url(../images/candycane.gif);
+		content: url(../images/star.webp);
 		padding-right: 5px;
 	}
 
 	&::after {
-		content: url(../images/candycane.gif);
+		content: url(../images/star.webp);
 		padding-left: 5px;
 	}
 }
@@ -166,12 +161,11 @@ img.pet {
 .divide {
 	margin: 0 auto;
 	padding: 10px;
-    padding-top: 20px;
 	width: 1px;
 
 	&::before {
-		content: url(../images/divider.gif);
-		margin-left: -119px;
+		content: url(../images/paw-divider.png);
+		margin-left: -60px;
 	}
 }
 

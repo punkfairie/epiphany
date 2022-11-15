@@ -1,10 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
+
 <div class="text">
 	<p>This page is for sites that either haven't been updated in the past two years, or I don't
 	know when they've updated. Even though these sites are inactive, they're still worth checking
 	out! You most likely won't be able to adopt from these sites, though the ones in the first
 	section all have downloads. The second section contains sites that don't have downloads, but I
 	put them up here for nonstalgia purposes :)</p>
-	
+
 	<p>I check these as often as I can, but if you find a broken link please let me know in the
 	cbox!</p>
 </div>
@@ -79,11 +89,12 @@
 	<a href="http://andtherest.atwebpages.com/" target="_blank">and the rest</a>
 	</p>
 </div>
-	
-<img class="pet" src="images/fave.png" title="Fave ; adopted from Arie @ Litterz Factory">
 
-<!-- 
+<!--
 	<a href="" target="_blank" class="social">
 		<img src="images/links/" title="">
 	</a>
 -->
+
+</body>
+</html>

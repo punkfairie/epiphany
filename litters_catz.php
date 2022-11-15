@@ -10,7 +10,7 @@
     <div class="text">
         <a href="adopt.html">Adoption form here!</a>
     </div>
-    
+
     <div class="text">
         <p>
             <span class="girls">girls</span><br>

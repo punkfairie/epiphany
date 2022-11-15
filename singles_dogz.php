@@ -1,9 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
+
 <div class="text">
-	<p><a class="jq" id="adopt">Adoption form here!</a></p>
+	<p><a href="adopt.php" target="main">Adoption form here!</a></p>
 
 	<p>This page is for petz that were used as "stepping-stone" parents so to speak, petz that are
 	cute and got me to the breeding pair I wanted but I'm not attached to enough to keep.</p>
-	
+
 	<p>All petz are fully inbred-free & non-tree-trimmed! They were all bred in Petz 4, but I
 	believe you can open them in 3, 4, or 5. All were bred from scratch by me.</p>
 </div>
@@ -57,3 +67,6 @@
 
 	<p><span class="girls gone">Smooch</span></p>
 </div>
+
+</body>
+</html>

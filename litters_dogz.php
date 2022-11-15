@@ -1,7 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
+
 <div class="text">
-	<p><a class="jq" id="adopt">Adoption form here!</a></p>
-	
-	<p>All petz are fully inbred-free & non-tree-trimmed! They were all bred in Petz 4, 
+	<p><a href="adopt.php" target="main">Adoption form here!</a></p>
+
+	<p>All petz are fully inbred-free & non-tree-trimmed! They were all bred in Petz 4,
 	but I believe you can open them in 3, 4, or 5. All were bred from scratch by me.</p>
 </div>
 
@@ -18,11 +28,11 @@
 <div class="text">
 	<p><span class="girls">Babes</span> x <span class="boys">Rocky Road</span><br>
 	<em>Dali / Lab mixes</em></p>
-	
+
 	<img src="images/adopts/babes.png" class="adopt"><img src="images/adopts/rocky-road.png" class="adopt"><br>
 	<br>
 	<img src="images/adopts/lando.png" class="adopt">
-	
+
 	<p><span class="boys">Lando</span></p>
 </div>
 
@@ -31,14 +41,14 @@
 <div class="text">
 	<p><span class="girls">Dew</span> x <span class="boys">Cider</span><br>
 	<em>Dali / Lab mixes</em></p>
-	
+
 	<img src="images/adopts/dew.png" class="adopt"><img src="images/adopts/cider.png" class="adopt"><br>
 	<br>
 	<img src="images/adopts/wood.png" class="adopt">
 	<img src="images/adopts/heath.png" class="adopt">
 	<img src="images/adopts/ash.png" class="adopt">
 	<img src="images/adopts/oleander.png" class="adopt">
-	
+
 	<p>
 		<span class="boys">Wood</span> &mdash;
 		<span class="boys">Heath</span> &mdash;
@@ -81,3 +91,7 @@
 		<span class="boys gone">Pherophia</span>
 	</p>
 </div>
+
+
+</body>
+</html>

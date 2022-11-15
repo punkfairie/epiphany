@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
+
 <div class="text">
 	<p>
 		Hello! I go by Mar!
@@ -6,10 +16,9 @@
 	<h1>Some Quick Facts:</h1>
 
 	<p>
-	<img src="images/social/SheHerCliqueRed.png" alt="she/they pronouns" title="she/they pronouns">
-	<img src="images/social/TheyThemCliqueRed.png" alt="she/they pronouns" title="she/they pronouns"><br>
+	<img src="images/social/SheHerCliqueRed.png" alt="she/her pronouns" title="she/her pronouns"><br>
 	<br>
-	<em>age:</em> 24<br>
+	<em>age:</em> 25<br>
 	<em>birthday:</em> Sept. 14<br>
 	<em>lives near:</em> Seattle, WA<br>
 	<em>been in the pc:</em> Off and on since 2005ish {2nd Grade ; 8 years old}<br>
@@ -25,3 +34,7 @@
 	Prejudice, Tipping the Velvet<br>
 	</p>
 </div>
+
+
+</body>
+</html>

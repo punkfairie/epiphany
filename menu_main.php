@@ -1,7 +1,21 @@
-<br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
 
 <div class="nav">
-    <a class="jq" id="home">home</a>
+    <a href="home.php" target="main">home</a>
+</div>
+
+<div class="nav">
+    <a href="menu_about.php" target="nav">about</a><br>
+    <a href="menu_adoption.php" target="nav">adoption</a><br>
+    <a href="menu_links.php" target="nav">links</a><br>
 </div>
 
 <div class="nav">
@@ -9,6 +23,5 @@
     <a href="https://saudade.punkfairie.net/" target="_blank">archive site</a>
 </div>
 
-<br>
-
-<img class="pet" src="images/nelipot.png" title="Nelipot ; adopted from Jax @ Atticus Petz">
+</body>
+</html>

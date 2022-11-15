@@ -1,14 +1,21 @@
-<br>
-<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
 
 <div class="nav">
-    <a class="jq" id="about_epiphany">epiphany</a>
+    <a href="about_epiphany.php" target="main">epiphany</a><br>
+    <a href="about_me.php" target="main">me</a>
 </div>
 
 <div class="nav">
-    <a class="jq" id="about_me">me</a>
+    <a href="menu_main.php" target="nav">back</a>
 </div>
 
-<br>
-
-<img class="pet" src="images/lace.png" title="Lace ; adopted from Arie @ Litterz Factory">
+</body>
+</html>

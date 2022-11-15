@@ -1,5 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
+
 <div class="social">
-		
+
 	<a href="https://moonflowerpetz.neocities.org/moonflower.html" class="social" target="_blank">
 		<img src="images/social/loveislove2.gif" title="love is love">
 	</a>
@@ -31,7 +41,7 @@
 	<a href="https://beatnik.tiny-universes.net/" target="_blank" class="social">
 		<img src="images/social/hope.png" title="keep the small internet alive">
 	</a>
-	
+
 	<a href="https://funfetti.net/" target="_blank" class="social">
 		<img src="images/social/funfetti-escaping-reality.gif" title="escaping reality">
 	</a>
@@ -56,3 +66,6 @@
 		<img src="images/social/" title="">
 	</a>
 -->
+
+</body>
+</html>

@@ -1,8 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
+
 <div class="text">
 	<p>These sites are all currently active! And by active, I mean has updated sometime in the past
 	two years. Any other sites can be found on the
-	<a class="jq" id="links_inactive">inactive sites</a> page.</p>
-	
+	<a href="links_inactive.php" target="main">inactive sites</a> page.</p>
+
 	<p>I check these as often as I can, but if you find a broken link please let me know in the
 	cbox! You can also comment there if you want your link added to this page or if your URL has
 	changed.</p>
@@ -48,19 +58,19 @@
 	<a href="http://decemberpetz.atwebpages.com/index.html" target="_blank" class="social">
 		<img src="images/links/december.png" title="December">
 	</a>
-	
+
 	<a href="http://www.sardonyx-petz.com/" target="_blank" class="social">
 		<img src="images/links/Sardonyx.PNG" title="Sardonyx">
 	</a>
-	
+
 	<a href="http://funfetti.net/" target="_blank" class="social">
 		<img src="images/links/funfetti.gif" title="funfetti">
 	</a>
-	
+
 	<a href="http://cremelo.funfetti.net/" target="_blank" class="social">
 		<img src="images/links/cremelo.png" title="cremelo">
 	</a>
-	
+
 	<a href="http://soleil.funfetti.net/" target="_blank" class="social">
 		<img src="images/links/soleil.png" title="soleil">
 	</a>
@@ -77,8 +87,11 @@
 </body>
 </html>
 
-<!-- 
+<!--
 	<a href="" target="_blank" class="social">
 		<img src="images/links/" title="">
 	</a>
 -->
+
+</body>
+</html>

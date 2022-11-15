@@ -1,10 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
+
 <div class="text">
     <p>Hello! I go by Addie. That's not my real name, and I'm not putting a picture up because for
     now I'd like to keep petz seperate from my real life. Someday maybe I'll tell y'all who I really
     am, but at least while I'm still in high school I probably won't.</p>
-    
+
     <p>Some quick facts:</p>
-    
+
     <p>age: 17<br />
     birthday: Sept. 14<br />
     lives near: Portland, OR<br />
@@ -30,3 +40,7 @@
     what I want to do after high school: travel ; own a bookshop.
     </p>
 </div>
+
+
+</body>
+</html>

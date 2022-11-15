@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stuff.css">
+    <title></title>
+</head>
+<body>
+
 <div class="text">
 	<p>Hello and welcome to Epiphany Petz! This is a Petz 4 website.<br>
 	<br>
@@ -19,7 +29,7 @@
 <div class="text">
 	<h1>Updates</h1>
 
-	<p><em><a class="jq" id="updates">update archive</a></em></p>
+	<p><em><a href="updates.php" target="main">update archive</a></em></p>
 
 	<h2>15 Mar 2022</h2>
 
@@ -44,10 +54,10 @@
 	<h2>21 Feb 2022</h2>
 
 	<p>More dogz litterz added, and single dogz adoptions also added.</p>
-	
+
 	<h2>19 Feb 2022</h2>
 
-	<p>Dogz adoptions added!</p>	
+	<p>Dogz adoptions added!</p>
 </div>
 
 <div class="divide"></div>
@@ -56,17 +66,14 @@
 	<h1>Credits</h1>
 
 	<!--button-->
-	<p>button template from 
+	<p>button template from
 		<a href="http://caotiicah.deviantart.com/art/Templates-for-web-s-buttons-157513928"
 		target="_blank">caotiicah</a>
 	</p>
-	
-	<!--host-->
-	<p>hosted by <a href="http://www.oasis.fantazzled.com/" target="_blank">Oasis Petz</a></p>
-	
+
 	<!--background-->
 	<p>
-	background from 
+	background from
 	<a
 	href="https://tenshiikisu.tumblr.com/post/79015021080/hey-hey-hey-huge-pixel-background-dump-ive-been"
 	target="_blank">keep it cute</a>
@@ -74,14 +81,23 @@
 
 	<!-- pixels -->
 	<p>
-	various pixels -
+	various pixels from
 	<a href="https://pixel-soup.tumblr.com/" target="_blank">pixel-soup</a>
 	</p>
+
+    <!-- divider -->
+    <p>
+    divider from
+    <a href="https://just-pixels.tumblr.com/post/39751350668/little-late-but-christmas-dividers">just-pixels</a>
+    </p>
 
 	<p>
 	banner font from
 	<a href="https://www.fontspace.com/reglisse-font-f43313"
 	target="_blank">fontspace</a>
 	</p>
-	
+
 </div>
+
+</body>
+</html>
