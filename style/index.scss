@@ -15,53 +15,49 @@ body {
 	font-family: $font;
 	font-size: $fsize;
 	letter-spacing: $lspacing;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
 
-	width: 60%;
+#body {
+	width: 70%;
 	height: 70%;
-    margin-left: 300px;
-    margin-top: 75px;
+    position: absolute;
+    right: 100px;
+    bottom: 70px;
 
 	display: grid;
 	gap: 10px 10px; grid-gap: 10px 10px;
-	grid-template-columns: 230px auto;
-	grid-template-rows: 1fr 2fr 240px;
+	grid-template-columns: 100px 230px 5fr;
+	grid-template-rows: auto 240px;
 	grid-template-areas:
-        "banner banner"
-		"nav    main"
-        "cbox   main";
+		"banner nav    main"
+        "banner cbox   main";
 
 	& > div, & > iframe { height: 100%; width: 100%; }
-
-	.scroll { overflow-y: auto; }
 }
 
-div#banner {
+.scroll { overflow-y: auto; }
+
+#banner {
 	grid-area: banner;
 
-	display: grid;
-	gap: 0; grid-gap: 0;
-	grid-template-columns: 60% 40%;
-	grid-template-rows: 100%;
-	grid-template-areas: "title nav";
-	align-items: end;
-
-		div#title {
-			grid-area: title;
-			z-index: 1;
-			position: relative;
-
-			img {
-				position: absolute;
-				bottom: -10px;
-				right: 0;
-			}
-		}
-
-		div#site-nav {
-			grid-area: nav;
-
-			margin-bottom: 10px;
-		}
+    #banner-inner {
+        grid-area: bannerinner;
+        font-family: 'Sacramento', cursive;
+        font-size: 80px;
+        color: $accent2;
+        transform: rotate(-90deg);
+        position: absolute;
+        translate: -15% 100%;
+        z-index: 1000;
+        text-shadow:
+             3px  3px 5px #fff,
+            -3px -3px 5px #fff,
+             3px -3px 5px #fff,
+            -3px  3px 5px #fff;
+    }
 }
 
 #main {

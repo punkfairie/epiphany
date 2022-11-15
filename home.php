@@ -31,6 +31,10 @@
 
 	<p><em><a href="updates.php" target="main">update archive</a></em></p>
 
+    <h2>14 Nov 2022</h2>
+
+    <p>Christmas theme up (:</p>
+
 	<h2>15 Mar 2022</h2>
 
 	<p>Epiphany has moved! I got my own domain a week or two ago and have finally finished setting
@@ -54,10 +58,6 @@
 	<h2>21 Feb 2022</h2>
 
 	<p>More dogz litterz added, and single dogz adoptions also added.</p>
-
-	<h2>19 Feb 2022</h2>
-
-	<p>Dogz adoptions added!</p>
 </div>
 
 <div class="divide"></div>

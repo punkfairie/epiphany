@@ -11,6 +11,10 @@
 <div class="text">
 	<h1>Updates Archive</h1>
 
+    <h2>19 Feb 2022</h2>
+
+    <p>Dogz adoptions added!</p>
+
 	<h2>17 Feb 2022</h2>
 
 	<p>New layout is done! I'm super in love with all the pixels, it's so cuuutee.<br>
