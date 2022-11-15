@@ -58,15 +58,5 @@
 	</p>
 </div>
 
-<div class="divide"></div>
-
-<div class="text">
-	<h1>Lab / Sheep mixes</h1>
-
-	<img src="images/adopts/smooch.png" class="adopt">
-
-	<p><span class="girls gone">Smooch</span></p>
-</div>
-
 </body>
 </html>

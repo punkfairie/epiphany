@@ -10,16 +10,16 @@
 
 <div class="nav">
 	litters:<br>
-	<a class="jq" id="litters_dogz">dogz</a>
+	<a href="litters_dogz.php" target="main">dogz</a>
 </div>
 
 <div class="nav">
 	singles:<br>
-	<a class="jq" id="singles_dogz">dogz</a>
+	<a href="singles_dogz.php" target="main">dogz</a>
 </div>
 
 <div class="nav">
-	<a class="jq" id="adopt">rules/form</a>
+	<a href="adopt.php" target="main">rules/form</a>
 </div>
 
 <br>
