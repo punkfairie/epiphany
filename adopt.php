@@ -11,11 +11,7 @@
 <div class="text">
     <p>This is where you can apply to adopt! You MUST read the rules.</p>
 
-    It's totally fine to lump these all in one email if you want, just make sure to label each
-    form so I know which is which:) If you give me your site in the form, I'll add it to the
-    links page!
-
-    <p>send to: epiphany[at]m[dot]punkfairie[dot]net</p>
+    <p>If you give me your site in the form, I'll add it to the links page!</p>
 
     <div class="divide"></div>
 
@@ -37,14 +33,32 @@
 
     <h1>Adoption Form</h1>
 
-    <p>
-    name:<br>
-    email:<br>
-    do you have a site?:<br>
-    which petz?:
-    </p>
+    <form action="submit_adoption.php" method="post">
+        <div class="form-item">
+            <label for="name">* name:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
 
-    <img class="pet" src="images/fore.png" title="Fore ; adopted from Arie @ Litterz Factory">
+        <div class="form-item">
+            <label for="email">* email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="form-item">
+            <label for="site">your site:</label>
+            <input type="url" name="site" id="site">
+        </div>
+
+        <div class="form-item">
+            <label for="petz">* which petz:</label>
+            <input type="text" name="petz" id="petz" required>
+        </div>
+
+        <div class="form-btns">
+            <input type="submit" name="submit" value="submit">
+            <input type="reset" name="reset" value="reset">
+        </div>
+    </form>
 
 </div>
 

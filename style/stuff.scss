@@ -155,6 +155,47 @@ a.social:hover {
 
 img.adopt { width: 100px; }
 
+form {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.form-item, .form-btns {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    border: 1px solid $accent1;
+    background: none;
+    font-family: $font;
+    font-size: $fsize;
+    letter-spacing: $lspacing;
+    color: $text;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: "label input";
+
+    label {
+        grid-area: label;
+    }
+
+    input {
+        grid-area: input;
+    }
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    color: $accent1;
+
+}
+
 /* MISC ----------------------------------------------------------------------------------------- */
 
 img.pet {
