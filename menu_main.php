@@ -15,6 +15,7 @@
 <div class="nav">
     <a href="menu_about.php" target="nav">about</a><br>
     <a href="menu_adoption.php" target="nav">adoption</a><br>
+    <!-- <a href="menu_downloads.php" target="nav">downloads</a> -->
     <a href="menu_links.php" target="nav">links</a><br>
 </div>
 

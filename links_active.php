@@ -39,10 +39,6 @@
 		<img src="images/links/acidtrip.png" title="Acid Trip">
 	</a>
 
-	<a href="https://baddeath.neocities.org/" target="_blank" class="social">
-		<img src="images/links/bad_death.png" title="BAD_DEATH">
-	</a>
-
 	<a href="https://cargo-petz.neocities.org/" target="_blank" class="social">
 		<img src="images/links/cargo.png" title="Cargo">
 	</a>
@@ -81,7 +77,6 @@
 	<a href="https://alohomorapetz.carrd.co/#" target="_blank">alohomora</a><br>
 	<a href="https://rosalie.neocities.org/" target="_blank">rosalie</a><br>
 	<a href="https://macaronkc.weebly.com/" target="_blank">Macaron Kennels & Cattery</a><br>
-	<a href="https://powerwavefilly.wixsite.com/my-site-3" target="_blank">Powerwave Kennel</a>
 </p></div>
 
 </body>
