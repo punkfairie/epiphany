@@ -24,6 +24,7 @@
     "stylelint": "^15.11.0"
   },
   "dependencies": {
-    "@punkfairie/modern-css-reset": "^1.0.1"
+    "@punkfairie/modern-css-reset": "^1.0.1",
+    "alpinejs": "^3.13.3"
   }
 }

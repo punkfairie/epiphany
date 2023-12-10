@@ -8,16 +8,18 @@
   <title>... Epiphany ... baby, it's cold outsite ...</title>
   <!--suppress HtmlUnknownTarget -->
   <link rel="stylesheet" href="/style.css">
+  <!--suppress HtmlUnknownTarget -->
+  <script src="/main.js" type="module"></script>
 </head>
 <body>
-<div class="site">
+<div class="site" x-data="{menu: 'index'}">
   <header>
     <h1>Epiphany</h1>
 
     <nav class="main-nav">
       <a href="/">index</a>
-      <a href="#">adoptions</a>
-      <a href="#">about</a>
+      <a href="#" x-on:click="menu = 'adoptions'">adoptions</a>
+      <a href="#" x-on:click="menu = 'about'">about</a>
     </nav>
   </header>
 
@@ -25,7 +27,17 @@
     {{ content }}
   </main>
 
-  <nav class="secondary-nav"></nav>
+  <nav class="secondary-nav" id="index" x-show="menu === 'index'">
+    <img src="/img/petz/siren-2.png" alt="Siren">
+  </nav>
+
+  <nav class="secondary-nav" id="adoptions" x-show="menu === 'adoptions'">
+    adoptions menu
+  </nav>
+
+  <nav class="secondary-nav" id="about" x-show="menu === 'about'">
+    about menu
+  </nav>
 </div>
 </body>
 </html>
