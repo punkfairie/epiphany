@@ -6,8 +6,8 @@
  * spacers
  */
 
-@import url(https://fonts.bunny.net/css?family=Imprima&display=swap);
-@import url(https://fonts.bunny.net/css?family=cedarville-cursive:400);
+@import url("https://fonts.bunny.net/css?family=Imprima&display=swap");
+@import url("https://fonts.bunny.net/css?family=cedarville-cursive:400");
 
 :root {
     --bg: hsl(204deg 100% 80%);
