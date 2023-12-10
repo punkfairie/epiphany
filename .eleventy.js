@@ -4,7 +4,7 @@ const postcssImportExtGlob = require('postcss-import-ext-glob')
 const postcssImport = require('postcss-import')
 const postcssPresetEnv = require('postcss-preset-env')
 const cssnano = require('cssnano')
-const esbuild = require('esbuild')
+// const esbuild = require('esbuild')
 const automaticNoopener = require('eleventy-plugin-automatic-noopener')
 
 module.exports = function (eleventyConfig) {
@@ -44,7 +44,7 @@ module.exports = function (eleventyConfig) {
         noreferrer: true,
     })
 
-    // eleventyConfig.addPassthroughCopy('./src/dl/')
+    eleventyConfig.addPassthroughCopy('./src/img/')
 
     return {dir: {input: 'src', output: 'dist'}}
 }

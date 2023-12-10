@@ -1,5 +1,5 @@
 /**
- * imports
+ * imports & misc
  * colors
  * typography
  * type sizing
@@ -10,6 +10,8 @@
 @import url('https://fonts.bunny.net/css2?family=Sacramento&display=swap');
 
 :root {
+    --bg: url('/img/theme/baby-its-cold-outside/bg.png');
+
     /* ---------------------------------------------------------------------- *\
         &colors
     \* ---------------------------------------------------------------------- */
