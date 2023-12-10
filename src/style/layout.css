@@ -52,8 +52,19 @@
     }
 
     .secondary-nav {
+        --flow-space: 0.75em;
+
         grid-area: s-nav;
         padding: var(--space-s);
+        text-align: center;
+    }
+
+    .secondary-nav a {
+        display: block;
+    }
+
+    .main-nav a, .secondary-nav a {
+        text-transform: lowercase;
     }
 
     .divide {
