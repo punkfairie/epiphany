@@ -4,12 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rm -rf dist && npx @11ty/eleventy --serve",
+    "build": "rm -rf dist && npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@punkfairie/stylelint-config": "^1.0.2",
+    "cssnano": "^6.0.1",
+    "eleventy-plugin-automatic-noopener": "^2.0.2",
+    "esbuild": "^0.19.9",
+    "postcss": "^8.4.32",
+    "postcss-import": "^15.1.0",
+    "postcss-import-ext-glob": "^2.1.1",
+    "postcss-preset-env": "^9.3.0",
+    "stylelint": "^15.11.0"
+  },
+  "dependencies": {
+    "@punkfairie/modern-css-reset": "^1.0.1"
+
   }
 }
