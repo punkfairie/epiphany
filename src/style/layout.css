@@ -7,45 +7,61 @@
 
     /* noinspection Stylelint */
     .site {
-        inline-size: 64rem;
-        block-size: 48rem;
-        background: url('/img/theme/baby-its-cold-outside/bg.png');
-        border: 1px solid hsl(233deg 66% 20%);
-        padding: var(--space-xs);
-
         display: grid;
         grid-template:
             '.      .'      1.5fr
             'header header' 0.5fr
-            'nav    main'   2.5fr / 1fr 5fr;
+            's-nav  main'   2.5fr / 1fr 5fr;
+        inline-size: 64rem;
+        block-size: 48rem;
+        padding: var(--space-xs);
+        background: url('/img/theme/baby-its-cold-outside/bg.png');
+        border: 1px solid hsl(233deg 66% 20%);
     }
 
     header {
         grid-area: header;
-        text-align: right;
         align-self: end;
-        padding-right: var(--space-xs);
+        padding-inline-end: var(--space-xs);
+        padding-bottom: var(--space-2xs);
+        text-align: end;
+
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: baseline;
+        column-gap: var(--space-m);
+    }
+
+    h1 {
+
+    }
+
+    .main-nav {
+        display: flex;
+        column-gap: var(--space-xs);
     }
 
     main {
         --flow-space: var(--space-xs);
 
         grid-area: main;
-        overflow: auto;
         padding: var(--space-s);
+        overflow: auto;
         text-align: center;
+        background-color: rgba(255, 255, 255, 0.49);
     }
 
-    nav {
-        grid-area: nav;
+    s
+    .secondary-nav {
+        grid-area: s-nav;
         padding: var(--space-s);
     }
 
     .divide {
-        background: url('/img/theme/baby-its-cold-outside/divider.gif');
-        height: 20px;
-        width: 239px;
         display: inline-block;
-        margin-top: var(--space-m);
+        width: 239px;
+        height: 20px;
+        margin-block-start: var(--space-m);
+        background: url('/img/theme/baby-its-cold-outside/divider.gif');
     }
 }
