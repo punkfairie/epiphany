@@ -10,26 +10,25 @@
 @import url('https://fonts.bunny.net/css2?family=Sacramento&display=swap');
 
 :root {
-    --bg: url('/img/theme/baby-its-cold-outside/bg.png');
+    --bg: hsl(204deg 100% 80%);
 
     /* ---------------------------------------------------------------------- *\
         &colors
     \* ---------------------------------------------------------------------- */
 
-    --c-text: hsl(0, 0%, 0%);
-    --c-main-l: hsl(0, 61%, 52%);
-    --c-main-d: hsl(0, 69%, 33%);
-    --c-accent: hsl(147, 35%, 24%);
-
-    --c-girls: hsl(300, 100%, 77%);
-    --c-boys: hsl(203, 81%, 69%);
+    --c-text: hsl(0deg 0% 0%);
+    --c-main-l: hsl(0deg 61% 52%);
+    --c-main-d: hsl(0deg 69% 33%);
+    --c-accent: hsl(147deg 35% 24%);
+    --c-girls: hsl(300deg 100% 77%);
+    --c-boys: hsl(203deg 81% 69%);
 
     /* ---------------------------------------------------------------------- *\
         &typography
     \* ---------------------------------------------------------------------- */
 
     --t-face: 'Imprima', sans-serif;
-    --t-spacing: 2px;
+    --t-spacing: 0.125rem;
 
     /* ---------------------------------------------------------------------- *\
         &type sizing

@@ -1,0 +1,15 @@
+@layer layout {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* noinspection Stylelint */
+    .site {
+        inline-size: 64rem;
+        block-size: 48rem;
+        background: url('/img/theme/baby-its-cold-outside/bg.png');
+        border: 1px solid hsl(233deg 66% 20%);
+    }
+}

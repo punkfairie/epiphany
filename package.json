@@ -20,10 +20,10 @@
     "postcss-import": "^15.1.0",
     "postcss-import-ext-glob": "^2.1.1",
     "postcss-preset-env": "^9.3.0",
+    "prettier": "3.1.1",
     "stylelint": "^15.11.0"
   },
   "dependencies": {
     "@punkfairie/modern-css-reset": "^1.0.1"
-
   }
 }
