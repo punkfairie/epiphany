@@ -11,5 +11,41 @@
         block-size: 48rem;
         background: url('/img/theme/baby-its-cold-outside/bg.png');
         border: 1px solid hsl(233deg 66% 20%);
+        padding: var(--space-xs);
+
+        display: grid;
+        grid-template:
+            '.      .'      1.5fr
+            'header header' 0.5fr
+            'nav    main'   2.5fr / 1fr 5fr;
+    }
+
+    header {
+        grid-area: header;
+        text-align: right;
+        align-self: end;
+        padding-right: var(--space-xs);
+    }
+
+    main {
+        --flow-space: var(--space-xs);
+
+        grid-area: main;
+        overflow: auto;
+        padding: var(--space-s);
+        text-align: center;
+    }
+
+    nav {
+        grid-area: nav;
+        padding: var(--space-s);
+    }
+
+    .divide {
+        background: url('/img/theme/baby-its-cold-outside/divider.gif');
+        height: 20px;
+        width: 239px;
+        display: inline-block;
+        margin-top: var(--space-m);
     }
 }

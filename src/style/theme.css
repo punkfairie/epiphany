@@ -6,8 +6,8 @@
  * spacers
  */
 
-@import url('https://fonts.bunny.net/css2?family=Imprima&display=swap');
-@import url('https://fonts.bunny.net/css2?family=Sacramento&display=swap');
+@import url(https://fonts.bunny.net/css?family=Imprima&display=swap);
+@import url(https://fonts.bunny.net/css?family=cedarville-cursive:400);
 
 :root {
     --bg: hsl(204deg 100% 80%);
@@ -29,21 +29,23 @@
 
     --t-face: 'Imprima', sans-serif;
     --t-spacing: 0.125rem;
+    --t-display: 'Cedarville Cursive', handwriting;
 
     /* ---------------------------------------------------------------------- *\
         &type sizing
     \* ---------------------------------------------------------------------- */
 
-    /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    /* @link https://utopia.fyi/type/calculator?c=320,14,1.2,1240,16,1.25,6,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
-    --t-step--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem);
-    --t-step--1: clamp(0.94rem, calc(0.92rem + 0.11vw), 1.00rem);
-    --t-step-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
-    --t-step-1: clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem);
-    --t-step-2: clamp(1.62rem, calc(1.50rem + 0.58vw), 1.95rem);
-    --t-step-3: clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem);
-    --t-step-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
-    --t-step-5: clamp(2.80rem, calc(2.45rem + 1.77vw), 3.82rem);
+    --t-step--2: clamp(0.6075rem, 0.5962rem + 0.0565vw, 0.64rem);
+    --t-step--1: clamp(0.7294rem, 0.7048rem + 0.1228vw, 0.8rem);
+    --t-step-0: clamp(0.875rem, 0.8315rem + 0.2174vw, 1rem);
+    --t-step-1: clamp(1.05rem, 0.9804rem + 0.3478vw, 1.25rem);
+    --t-step-2: clamp(1.26rem, 1.1548rem + 0.5261vw, 1.5625rem);
+    --t-step-3: clamp(1.5119rem, 1.3584rem + 0.7674vw, 1.9531rem);
+    --t-step-4: clamp(1.8144rem, 1.5963rem + 1.0902vw, 2.4413rem);
+    --t-step-5: clamp(2.1775rem, 1.8734rem + 1.5207vw, 3.0519rem);
+    --t-step-6: clamp(2.6125rem, 2.1942rem + 2.0913vw, 3.815rem);
 
     /* ---------------------------------------------------------------------- *\
         &spacers

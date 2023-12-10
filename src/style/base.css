@@ -6,4 +6,40 @@
         font-size: var(--t-step-0);
         background: var(--bg);
     }
+
+    h1, h2, h3 {
+        font-family: var(--t-display);
+        font-weight: normal;
+    }
+
+    h1 {
+        font-size: var(--t-step-6);
+    }
+
+    h2 {
+        font-size: var(--t-step-4);
+    }
+
+    h3 {
+        font-size: var(--t-step-3);
+    }
+
+    a {
+        color: var(--c-main-d);
+        transition: color 200ms;
+    }
+
+    a:visited, a:active {
+        color: var(--c-accent);
+    }
+
+    a:hover {
+        color: var(--c-main-l);
+        text-decoration-style: dashed;
+    }
+
+    /*noinspection CssUnresolvedCustomProperty*/
+    .flow > * + * {
+        margin-block-start: var(--flow-space, 1em);
+    }
 }
