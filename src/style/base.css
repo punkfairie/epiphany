@@ -38,6 +38,15 @@
         text-decoration-style: dashed;
     }
 
+    b, strong {
+        color: var(--c-main-d);
+        font-weight: normal;
+    }
+
+    i, em {
+        color: var(--c-accent);
+    }
+
     .flow > * + * {
         margin-block-start: var(--flow-space, 1em);
     }
