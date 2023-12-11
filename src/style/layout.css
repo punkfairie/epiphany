@@ -74,4 +74,11 @@
         margin-block-start: var(--space-m);
         background: url('/img/theme/baby-its-cold-outside/divider.gif');
     }
+
+    .social {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--space-2xs);
+    }
 }
